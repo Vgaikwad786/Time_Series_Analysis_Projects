@@ -119,3 +119,5 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 rmse=sqrt(mean_squared_error(test['Production'],test['Predictions']))
 print(rmse)
+
+''' Hence the final computed loss is 19.39'''
